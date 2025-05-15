@@ -4,12 +4,14 @@ cd project_1
 npm run dev 
 */
 
+//counter project
 
+//-------hook----
 import { useState } from 'react';
 import './App.css'
 
 function App() {
-let [counter , setCounter] = useState(0)
+let [counter , setCounter] = useState(10)
   // let counter = 0
 
   let addValue = () => {
